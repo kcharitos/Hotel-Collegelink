@@ -1,0 +1,341 @@
+
+
+/* ---------------------------------MAIN BODY------------------------------------------- */
+
+main {
+	width: 60%;
+	height: auto;
+	margin: 0px auto;
+}
+
+
+aside {
+    width: 25%;
+    height: 70%;
+    padding: 15px 5px;
+    margin: 15px 15px;
+    float: left;
+    background-color: white;
+}
+
+	aside div {
+		display: flex;
+		justify-content: center;
+	} 
+	
+form h3 {
+	text-align: center;
+	font-weight: 400;
+	font-size: 17px;
+	color: #ff571a;
+	margin: 20px 10px 25px 10px;
+}
+
+
+.count-of-guests select,
+.RoomType select,
+.City select {
+	width: 80%;
+	height: 40px;
+	margin: 5px 0;
+	border-radius: 3px;
+	background: #f2f2f2;
+	border: 1px solid #d3d3d3;
+	text-align: center;
+	color: #737373;
+}
+
+
+div.SliderAmounts {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#amount1 {
+    width: 85%;
+    background: #e6e6e6;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    color: #737373;
+    font-size: 10px;
+    padding: 2px 0px;
+    margin: 10px 0px 5px 2px;
+}
+
+#amount2 {
+    width: 85%;
+    background: #e6e6e6;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    color: #737373;
+    font-size: 10px;
+    padding: 2px 0px;
+    margin: 10px 2px 5px 0px;
+}
+
+
+div.amount1 {
+    width: 75%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+div.amount2 {
+    width: 75%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.ui-slider-handle {
+    font-size: 9px;
+    border-radius: 50%;
+    background: url('http://hotel.collegelink.localhost/public/assets/fonts/orange.png') !important;
+}
+
+.ui-widget#slider-range {
+    font-size: 6px;
+    width: 80%;
+    margin: 5px auto;
+}
+
+
+div.priceTags {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    font-size: 10px;
+    text-align: center;
+    color: #737373;
+}
+
+.priceTags p {
+    margin: 2px 2px;
+}
+
+
+.Calendar input{
+	width: 80%;
+	height: 40px;
+	margin: 8px 0;
+	border-radius: 3px;
+	background: white;
+	border: 1px solid #d3d3d3;
+	text-align: center;
+	color: #737373;
+    
+}
+
+
+button.SearchButton {
+    background-color: #ff571a;
+    color: white;
+    border: 1px solid #ff571a;
+    border-radius: 2px;
+    height: 23px;
+    width: 80%;
+    text-align: center;
+    font-size: 11px;
+    margin: 8px 0 0 0;
+	cursor: pointer;
+}
+
+
+.effect {
+	position: relative;
+}
+
+
+.effect:before {
+	z-index: -1;
+	position: absolute;
+	content: "";
+	bottom: 15px;
+	border-radius: 40% 40% 0% 0%;
+	left: -20%;
+	width: 20%;
+	height: 77%;
+	top: 27%;
+	background: white;
+	box-shadow: 22px -14px 11px -15px black;
+	transform: rotate(-2deg);
+}
+
+
+.effect:after {
+	z-index: -1;
+	position: absolute;
+	content: "";
+	bottom: 15px;
+	border-radius: 80% 0%;
+	left: 102%;
+	width: 20%;
+	height: 95%;
+	top: -2%;
+	background: white;
+	box-shadow: -27px 14px 20px -7px black;
+	transform: rotate(1deg);
+}
+
+
+.left-shadow {
+	background: -webkit-gradient(linear, right top, right bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(25%,rgba(255,255,255,1)), color-stop(80%,rgba(255,255,255,0)));
+	width: 37px;
+	height: 430px;
+	z-index: 1;
+	position: absolute;
+	top: 0px;
+	left: -27px;
+}
+
+.right-shadow {
+	background: -webkit-gradient(linear, right top, right bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(5%,rgba(255,255,255,1)), color-stop(70%,rgba(255,255,255,0)));
+	width: 50px;
+	height: 430px;
+	z-index: 1;
+	position: absolute;
+	top: -8px;
+	left: 200px;
+}
+
+
+.ListOfRooms {
+	width: 65%;
+	height: auto;
+	float: right;
+	border-bottom: 1px dotted lightgray;
+	margin: 0 0 50px 0;
+}
+
+
+.SearchResults {
+	background-color: #ff571a;
+	color: white;
+	border: 1px solid #ff571a;
+	border-radius: 2px;
+	height: 25px;
+	line-height: 0px;
+	width: 97%;
+	padding: 0 10px;
+	font-size: 14px;
+	font-weight: 400;
+	margin:40px  0px;
+}
+
+
+.roomContainer {
+	width: 100%;
+	height: 30%;
+	margin: 0 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.room-photo {
+	width: 16%;
+	padding: 0px 0px;
+	margin: 0px 15px 0px 0px;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+
+.roomInfo {
+	width: 75%;
+	padding-left: 15px;
+	margin: 0px 0px;
+	border-left: 2px solid #ff571a;
+	display: block;
+    position: relative;
+	flex-wrap: nowrap;
+}
+
+.roomInfo h3 {
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: 400;
+	padding: 0px 0px;
+	margin: 0px 0px;
+}
+
+.roomInfo h4 {
+	text-transform: uppercase;
+	font-size: 11px;
+	font-weight: 400;
+	color: #bfbfbf;
+	padding: 0px 0px 5px 0px;
+	margin: 0px 0px;
+}
+
+.roomInfo p {
+	font-size: 10px;
+	word-wrap: normal;
+	padding: 0px 0px;
+	margin: 0px 0px;
+}
+
+
+.GoToRoomPage {
+	text-decoration: none;
+	text-align: center;
+	background-color: #ff571a;
+	color: white;
+	border: 1px solid #ff571a;
+	border-radius: 2px;
+	height: 22px;
+	width: 103px;
+	font-size: 11px;
+	margin: 8px 10px 0px 0px;
+	line-height: 22px;
+	position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+
+.roomDetails {
+	width: 100%;
+	height: 23px;
+	line-height: 23px;
+	text-align: center;
+	margin: 25px 0;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+
+.PerNight {
+	background: #737373;
+	color: white;
+	font-size: 11px;
+	width: 17%;
+	height: 23px;
+	margin-right: 1%;
+}
+
+.CountOfGuests,
+.TypeOfRoom {
+	background: #f2f2f2;
+	color: #737373;
+	font-size: 10px;
+	width: 43%;
+	height: 23px;
+}
+
+.TypeOfRoom {
+	border-left: 1px solid #737373;
+	border-image: linear-gradient(to bottom, rgba(0,0,0,0) 25%,rgb(191, 191, 191) 25%,rgb(191, 191, 191) 75%,rgba(0,0,0,0) 75%);
+	border-image-slice: 1;
+}
+
+.noRooms {
+	text-align: center;
+	font-size: 20px;
+}

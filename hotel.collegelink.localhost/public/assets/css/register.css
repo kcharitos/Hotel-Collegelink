@@ -1,0 +1,153 @@
+
+/* ---------------------------HEADER----------------------------------- */
+
+
+.header-container {
+	height: 9%;
+	background: white;
+	width: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+	position: flex;
+}
+
+
+.header-container::after {
+	border-radius: 40%;
+	box-shadow: 0px 2px 6px -4px;
+	content: '';
+	display: block;
+	height: 9%;
+	position: absolute;
+	width: 100%;
+	z-index: -1;
+}
+
+
+.hotels-logo {
+	display: flex;
+	flex-wrap: nowrap;
+	width: 50%;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.home-logo {
+	display: flex;
+	flex-wrap: nowrap;
+	width: 25%;
+	justify-content: flex-end;
+	padding-right: 10px;
+    align-items: center;
+}
+
+
+h4 {
+	font-weight: 400;
+	font-size: 14px;
+}
+
+
+.home-logo h4 {
+	color: #4d4d4d;
+	font-size: 12px;
+	margin: 0 auto;
+}
+
+
+a {
+	margin-top: 6px;
+	text-decoration: none;
+}
+	
+
+.fa, 
+.fas {
+    font-weight: 900;
+    font-size: 11px;
+	padding-right: 1px;
+}
+
+
+/* --------------------------------MAIN BODY------------------------------------- */
+
+
+form {
+	width: 25%;
+	height:70%;
+	border: 2px solid #ff571a;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 40px auto;
+	padding: 30px 0px 0px 0px;
+}
+
+div.form-field {
+	width: 70%;
+	height: 12%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 0px;
+}
+
+
+.form-field label,
+.form-field input {
+	width: 75%;
+	height: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;	
+}
+
+
+.name-error,
+.email-in-use-error,
+.email-error,
+.email-repeat-error,
+.password-error {
+	color: red;
+	margin-top: 4px;
+	font-size: 11px;
+	width: 75%;
+	display: flex;  
+	flex-wrap: no-wrap;
+}
+
+
+button.RegisterButton {
+	width: 40%;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	background: #ff571a;
+	color: white;
+	border: 1px solid #ff571a;
+	border-radius: 2px;
+	line-height: 27px;
+}
+
+
+
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0 auto;
+}
+
+
+footer {
+	position: fixed;
+	bottom: 0;
+	background: #e6e6e6;
+	color: #a6a6a6;
+	border-top: 3px solid #737373;
+	width: 100%;
+	height: 30px;
+	font-size: 9px;
+	text-align: center;
+}
+	
+	

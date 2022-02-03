@@ -1,0 +1,234 @@
+
+
+/* ---------------------------------MAIN BODY------------------------------------------- */
+
+
+main {
+	width: 60%;
+	margin: 20px auto;
+}
+
+.basic-info {
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	background: #ff571a;
+	color: white;
+	border-radius: 2px;
+	display:flex;
+	flex-wrap:nowrap;
+	justify-content: flex-start;
+	font-size: 15px;
+}
+
+.basic-info div {
+	padding: 0 10px 0 10px;
+}
+
+.reviews,
+.favorite {
+	align-items: flex-start;
+	border-left: 2px solid #FFFFFF;
+    border-image: linear-gradient(to bottom, rgba(0,0,0,0) 25%,rgb(255, 255, 255) 25%,rgb(255, 255, 255) 75%,rgba(0,0,0,0) 75%);
+    border-image-slice: 1;
+}
+
+.per-night {
+	text-align: right;
+	margin-left: auto;
+}
+
+.far,
+.fas {
+	font-size: 11px;
+}
+
+.fa-heart {
+	line-height: 35px;
+	font-size: 15px;
+}
+
+.favorite button {
+	height: 30px;
+	width: 20px;
+	background: #ff571a;
+	color: white;
+	border: none;
+	padding: 0px;
+	cursor: pointer;
+}
+
+.image {
+	width: 65%;
+	height: 50%;
+	margin: 30px 0 30px 0;
+}
+
+.additional-info {
+	width: 100%;
+	height: 45px;
+	align-items: center;
+	background: #ff571a;
+	color: white;
+	border-radius: 2px;
+	display:flex;
+	flex-wrap:nowrap;
+	justify-content: center;
+	margin-bottom: 30px;
+	
+}
+
+.additional-info div {
+	width: 20%;
+	height: 30px;
+	line-height: 2px;
+	text-align: center;
+	font-size: 13px;
+	border-left: 2px dashed white;
+}
+
+
+.fa-user,
+.fa-bed,
+.fa-parking,
+.fa-wifi,
+.fa-paw {
+	padding-right: 5px;
+}
+
+div.CountOfGuests {
+	border-left: none;
+}
+
+.description {
+	word-wrap: break-word;
+	border-left: 2px solid #ff571a;
+	padding-left: 10px;
+	margin-bottom: 30px;
+}
+
+.description h3 {
+	color: #737373;
+	font-weight: 500;
+}
+
+.description p {
+	font-size: 13px;
+}
+
+.BookButton button {
+	width: 100px;
+	height: 40px;
+	line-height: 35px;
+	background-color: #ff571a;
+	color: white;
+	text-align: center;
+	border: 1px solid #ff571a;
+	border-radius: 2px;
+	cursor: pointer;
+}
+
+div.BookButton,
+div.AlreadyBooked {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.AlreadyBooked p {
+	width: 130px;
+	height: 30px;
+	line-height: 30px;
+	background-color: red;
+	color: white;
+	text-align: center;
+	border: 1px solid red;
+	border-radius: 2px;
+	float: right;
+	margin: 5px 0;
+}
+
+.line {
+	width: 100%;
+	border-bottom: 2px dashed gray;
+	margin: 50px 0px;
+}
+
+.user-review {
+	border-left: 2px solid #ff571a;
+	padding-left: 15px;
+	color: #454545;
+	margin-bottom: 50px;
+}
+
+.user-review h3 {
+	font-weight:500;
+	margin-bottom: 25px;
+}
+
+
+.user-review h4 {
+	font-weight:500;
+	margin-bottom: 0px;
+}
+
+.user-review h5 {
+	font-weight:400;
+	margin: 5px 0px;
+}
+
+.user-review p {
+	font-size: 15px;
+	margin-top: 25px;
+}
+
+.rate-button {
+	background: white;
+	width: 30px;
+	height: 30px;
+	border: none;
+	margin: 0px 0px;
+	cursor: pointer;
+}
+
+.rating > .far {
+	font-size: 15px;
+	padding-right: 10px;
+	cursor: pointer;
+}
+
+.rating > .fas {
+	font-size: 15px;
+	padding-right: 10px;
+	cursor: pointer;
+}
+
+.comments {
+	margin-bottom: 15px;
+	width:50%;
+}
+
+.review-textarea {
+	width: 100%;
+	height: 15%;
+	margin-top: 5px;
+}
+
+.submit-button {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	cursor: pointer;
+}
+
+.submitButton {
+	width: 80px;
+	height: 35px;
+	line-height: 32px;
+	background-color: #ff571a;
+	color: white;
+	text-align: center;
+	border: 1px solid #ff571a;
+	border-radius: 2px;
+	cursor: pointer;
+}

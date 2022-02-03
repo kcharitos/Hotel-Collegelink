@@ -1,0 +1,119 @@
+
+/* ---------------------------HEADER----------------------------------- */
+
+
+div.container {
+	height: 9%;
+	background: #f2f2f2;
+	width: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+
+div.hotels-logo ,
+div.home-logo {
+	display: flex;
+	flex-wrap: nowrap;
+	width: 50%;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+div.hotels-logo p {
+	font-weight: 400;
+	font-size: 14px;
+}
+
+div.home-logo a {
+	text-decoration: none;
+	color: #ff571a;
+font-size: 12px;
+}
+	
+
+.fa, 
+.fas {
+    font-weight: 900;
+    font-size: 12px;
+}
+
+/* --------------------------------MAIN BODY------------------------------------- */
+
+
+form {
+	background: #fff;
+	width: 30%;
+	margin: 150px auto;
+	box-sizing: border-box;
+	padding: 15 0;
+	border-radius: 4px;
+}
+	
+	 form div {
+		display: flex;
+		justify-content: center;
+	}
+		
+		
+		
+.form-selects select {
+	width: 40%;
+	height: 40px;
+	border-radius: 2px;
+	background: #f2f2f2;
+	border: 1px solid #d3d3d3;
+	margin: 0 2px 15px 0;
+	text-align: center;
+	color: #737373;
+}
+
+
+.form-dates input {
+    width: 40%;
+    height: 40px;
+    border-radius: 2px;
+    border: 1px solid #d3d3d3;
+    margin: 0 2px 0 0;
+    text-align: center;
+    color: #737373;
+}
+
+
+button.SearchButton {
+	background-color: #ff571a;
+	color: white;
+	border: 1px solid #ff571a;
+	border-radius: 3px;
+	height: 35px;
+	width: 60px;
+	padding: 1px 5px 1px 5px;
+	text-align: center;
+	font-size: 12px;
+	margin: 20px 0 0 0;
+	cursor: pointer;
+}
+
+
+body {
+	width: 100%;
+	height: 100%;
+    background: url("/public/assets/fonts/burj-al-arab1.jpg") no-repeat center center;
+    background-size: cover;
+	font-family: 'Roboto', sans-serif;
+	margin: 0 auto;
+}
+
+
+footer {
+	position: fixed;
+	bottom: 0;
+	background: #e6e6e6;
+	color: #a6a6a6;
+	border-top: 3px solid #737373;
+	width: 100%;
+	height: 30px;
+	font-size: 9px;
+	text-align: center;
+}
