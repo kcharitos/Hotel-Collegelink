@@ -20,14 +20,6 @@ if(empty($roomId)) {
 	return;
 }
 
-// Verify csrf //Δεν το έχω ενεργοποιήσει διότι αλλιώς δεν γίνεται το redirect στην αρχική όταν ο χρήστης
-//δοκιμάζει να βάλει το δωμάτιο στα αγαπημένα ενώ δεν είναι συνδεδεμένος.
-// $csrf = $_REQUEST['csrf'];
-// if(empty($csrf) || !User::verifyCsrf($csrf)){
-	// echo 'This is an invalid request';
-	// return;
-// }
-
 // Get current user id
 if(empty(User::getCurrentUserId())){
 	$userId = '';
