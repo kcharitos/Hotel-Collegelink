@@ -51,3 +51,4 @@ if(!empty($userId)){
 			<link href="http://hotel.collegelink.localhost/public/assets/css/index.css" type="text/css" rel="stylesheet">
 		</footer>
 	</body>
+</html>
