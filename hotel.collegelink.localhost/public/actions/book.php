@@ -29,13 +29,6 @@ if(empty($roomId)) {
 	return;
 }
 
-// Verify csrf
-// $csrf = $_REQUEST['csrf'];
-// if(empty($csrf) || !User::verifyCsrf($csrf)){
-	// echo 'This is an invalid request';
-	// return;
-// }
-
 // Create booking
 $booking = new Booking();
 $checkInDate = $_REQUEST['check_in_date'];
