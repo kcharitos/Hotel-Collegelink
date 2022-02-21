@@ -41,11 +41,6 @@ class BaseService
 		// Prepare statement
 		$statement = $this->getPdo()->prepare($sql);
 		
-		// Bind parameters
-		//foreach ($parameters as $key => $value) {
-			//$statement->bindParam($key, $value, is_int($value) ? PDO::PARAM_INT : PDO::PARAM_STR);
-		//}
-		
 		// Execute
 		$status = $statement->execute($parameters);
 		
@@ -56,11 +51,6 @@ class BaseService
 	{
 		// Prepare statement
 		$statement = $this->getPdo()->prepare($sql);
-		
-		// Bind parameters
-		//foreach ($parameters as $key => $value) {
-			//$statement->bindValue($key, $value, is_int($value) ? PDO::PARAM_INT : PDO::PARAM_STR);
-		//}
 		
 		// Execute
 		$statement->execute($parameters);
@@ -73,11 +63,6 @@ class BaseService
 	{
 		// Prepare statement
 		$statement = $this->getPdo()->prepare($sql);
-		
-		// Bind parameters
-		//foreach ($parameters as $key => $value) {
-			//$statement->bindValue($key, $value, is_int($value) ? PDO::PARAM_INT : PDO::PARAM_STR);
-		//}
 		
 		// Execute
 		$statement->execute($parameters);
